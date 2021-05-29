@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>T-Task</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="media/media.css" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class='container'>
+			<header class="header"><img src="img/icons/stephen-leonardi-ai9ci-b7efu-unsplash2.png" alt = "">
+				<div class="header__left">
+					<div class="header__left-logo-1"><img src="img/icons/vector.png" alt = ""></div>
+					<div class="header__left-logo-2"><img src="img/icons/vector1.png" alt = ""></div>
+					<div class="header__left-text">Найдено 349 котов</div>
+					<nav id="menu">
+						<button class="c-hamburder c-hamburder-line">
+							<span></span>
+						</button>
+						<ul class="header__center-text">
+							<li><a href="#">Main</a></li>
+							<li><a href="#">Gallery</a></li>
+							<li><a href="#">News</a></li>
+							<li><a href="#">Profile</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__right">
+					<div class="header__right-phone">+380964464308</div>
+					<div class="header__right-text-1">Звони скорее!</div>
+				</div>
+			</header>
+			<div class="sort">Сортировать по:
+				<input id="q1" type="checkbox" class="sort__check-price" name="price">
+				<label class="sort__label-price" for="q1">Цене</label>
+			  <input id="q2" type="checkbox" class="sort__check-age" name="age">
+				<label class="sort__label-age" for="q2">Возрасту</label>
+			</div>
+			<nav class="cat-gallery" id="nav">
+				<div class="cat-1" id ="cat-1" data-sort="30000">
+					<div class="cat-1__image-wrapper">
+						<div class="cat-1__image"><img src="img/icons/jason-briscoe-uv81e0oxxwq-unsplash1.png" alt = "">
+							<div class="cat__logo-40">
+								<h2>-40%</h2>
+							</div>
+							<div class="cat__logo"><img src="img/icons/vector2.png" alt=""></div>
+						</div>
+					</div>
+					<div class="cat__tabby">Кот полосатый</div>
+					<div class="cat__options">
+						<div class="cat__br"></div>
+						<div class="cat__options-1">Коричневый окрас</div>
+						<div class="cat__options-2">
+							<h3>2 мес.</h3>Возраст
+						</div>
+						<div class="cat__options-3">
+							<h3>4</h3> Кол-во лап
+						</div>
+					</div>
+					<div class="cat__price"><h3>30 000 руб.</h3></div>
+					<div class="button">
+						<div class="button__text">Купить</div>
+					</div>
+
+				</div>
+				<div class="cat-2" id ="cat-2" data-sort="40000">
+					<div class="cat-2__image"><img src="img/icons/jason-briscoe-uv81e0oxxwq-unsplash2.png" alt = "">
+						<div class="cat__logo"><img src="img/icons/vector2.png" alt=""></div>
+					</div>
+					<div class="cat__tabby">Кот полосатый</div>
+					<div class="cat__options">
+						<div class="cat__br"></div>
+						<div class="cat__options-1">Коричневый окрас</div>
+						<div class="cat__options-2">
+							<h3>2 мес.</h3>Возраст
+						</div>
+						<div class="cat__options-3">
+							<h3>4</h3> Кол-во лап
+						</div>
+					</div>
+					<div class="cat__price"><h3>40 000 руб.</h3></div>
+					<div class="button">
+						<div class="button__text">Купить</div>
+					</div>
+				</div>
+				<div class="cat-3" id ="cat-3" data-sort="20000">
+					<div class="cat-3__image-wrapper">
+						<div class="cat-3__image"><img src="img/icons/jason-briscoe-uv81e0oxxwq-unsplash3.png" alt = "">
+							<div class="cat__logo"><img src="img/icons/vector2.png" alt=""></div>
+						</div>
+					</div>
+					<div class="cat__tabby">Кот полосатый</div>
+					<div class="cat__options">
+						<div class="cat__br"></div>
+						<div class="cat__options-1">Коричневый окрас</div>
+						<div class="cat__options-2">
+							<h3>2 мес.</h3>Возраст
+						</div>
+						<div class="cat__options-3">
+							<h3>4</h3> Кол-во лап
+						</div>
+					</div>
+					<div class="cat__price"><h3>20 000 руб</h3></div>
+					<div class="button">
+						<div class="button__text">Купить</div>
+					</div>
+				</div>
+				<div class="cat-4" id ="cat-4" data-sort="25000">
+					<div class="cat-3__image-wrapper">
+						<div class="cat-4__image"><img src="img/icons/jason-briscoe-uv81e0oxxwq-unsplash1.png" alt = "">
+							<div class="cat__logo"><img src="img/icons/vector2.png" alt=""></div>
+						</div>
+					</div>
+					<div class="cat__tabby">Кот полосатый</div>
+					<div class="cat__options">
+						<div class="cat__br"></div>
+						<div class="cat__options-1">Коричневый окрас</div>
+						<div class="cat__options-2">
+							<h3>2 мес.</h3>Возраст
+						</div>
+						<div class="cat__options-3">
+							<h3>4</h3> Кол-во лап
+						</div>
+					</div>
+					<div class="cat__price"><h3>25 000 руб</h3></div>
+					<div class="button">
+						<div class="button__text">Купить</div>
+					</div>
+				</div>
+				<div class="cat-5" id ="cat-5" data-sort="30000">
+					<div class="cat-5__image-wrapper">
+						<div class="cat-5__image"><img src="img/icons/jason-briscoe-uv81e0oxxwq-unsplash3.png" alt = "">
+							<div class="cat__logo-40">
+								<h2>-40%</h2>
+							</div>
+							<div class="cat__logo"><img src="img/icons/vector2.png" alt=""></div>
+						</div>
+					</div>
+					<div class="cat__tabby">Кот полосатый</div>
+					<div class="cat__options">
+						<div class="cat__br"></div>
+						<div class="cat__options-1">Коричневый окрас</div>
+						<div class="cat__options-2">
+							<h3>2 мес.</h3>Возраст
+						</div>
+						<div class="cat__options-3">
+							<h3>4</h3> Кол-во лап
+						</div>
+					</div>
+					<div class="cat__price"><h3>30 000 руб.</h3></div>
+					<div class="button">
+						<div class="button__text">Купить</div>
+					</div>
+				</div>
+				<div class="cat-6" id ="cat-6" data-sort="10000">
+					<div class="cat-6__image-wrapper">
+						<div class="cat-6__image"><img src="img/icons/jason-briscoe-uv81e0oxxwq-unsplash2.png" alt = "">
+							<div class="cat__logo"><img src="img/icons/vector2.png" alt=""></div>
+						</div>
+					</div>
+					<div class="cat__tabby">Кот полосатый</div>
+					<div class="cat__options">
+						<div class="cat__br"></div>
+						<div class="cat__options-1">Коричневый окрас</div>
+						<div class="cat__options-2">
+							<h3>2 мес.</h3>Возраст
+						</div>
+						<div class="cat__options-3">
+							<h3>4</h3> Кол-во лап
+						</div>
+					</div>
+					<div class="cat__price"><h3>10 000 руб.</h3></div>
+					<div class="button">
+						<div class="button__text">Купить</div>
+					</div>
+				</div>
+			</nav>
+				<div class="button-btn">
+					<h3>Показать ещё 20</h3>
+				</div>
+				<div class="button-scroll" id="top"><img src="img/icons/rectangle34.png" alt = "">
+					<div class="button-scroll__1"><img src="img/icons/vector5.png" alt = "">
+					</div>
+				</div>
+			
+			<footer class="footer">
+				<div class="footer__form">
+					<div class="footer__text-1">Успей купить!</div>
+					<div class="footer__form-mail">
+					<!-- <label for="footer__form-mail"><b></b></label> -->
+				 <input type="text" placeholder= "Email" name="Email" required>
+				</div>
+					<div class="footer__form-sub">
+						<h3>Подписаться</h3>
+					</div>
+				</div>
+				<div class="fotter__action-wrapper">
+				<div class="fotter__action">Подпишись и успей словить все акции</div>
+				<input id="q3" type="checkbox" class="footer__checkbox" name="footer">
+				<label class="footer__label" for="q3">Подписаться на новости</label>
+			</div>
+			</footer>
+		</div>
+	</div>
+
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>
